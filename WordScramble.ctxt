@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WordScramble
+comment0.text=\n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=word
+comment1.target=java.lang.String\ scrambleWord(java.lang.String)
+comment1.text=\ Scrambles\ a\ given\ word\n\ \ @param\ word\ the\ word\ to\ be\ scrambled\n\ \ @return\ the\ scrambled\ word\ (possibly\ equal\ to\ word)\n\ \ Precondition\:\ word\ is\ either\ an\ empty\ string\ or\ contains\ only\ uppercase\ letters.\n\ \ Postcondition\:\ the\ string\ returned\ was\ created\ from\ word\ as\ follows\:\n\ \ \ -\ the\ word\ was\ scrambled,\ beginning\ at\ the\ first\ letter\ and\ continuing\ from\ left\ to\ right\n\ \ \ -\ two\ consecutive\ letters\ consisting\ of\ "A"\ followed\ by\ a\ letter\ that\ was\ not\ "A"\ were\ swapped\n\ \ \ -\ letters\ were\ swapped\ at\ most\ once\n
+comment2.params=wordList
+comment2.target=void\ scrambleOrRemove(java.util.List)
+comment2.text=\ Modifies\ wordlist\ by\ replacing\ each\ word\ with\ its\ scrambled\n\ \ version,\ removing\ any\ words\ that\ are\ unchanged\ as\ a\ result\ of\ scrambling.\n\ \ @param\ wordList\ the\ list\ of\ words.\n\ \ \ Precondition\:\ wordList\ contains\ only\ non-null\ objects\n\ \ \ Postcondition\:\n\ \ \ \ \ -\ all\ words\ unchanged\ by\ scrambling\ have\ been\ removed\ from\ wordList\n\ \ \ \ \ -\ each\ of\ the\ remaining\ words\ has\ been\ replaced\ by\ its\ scrambled\ version\n\ \ \ \ \ -\ the\ relative\ ordering\ of\ the\ entries\ in\ wordList\ is\ the\ same\ as\ it\ as\ was\ \n\ \ \ \ \ \ \ \ \ \ before\ the\ method\ was\ called\n
+numComments=3
